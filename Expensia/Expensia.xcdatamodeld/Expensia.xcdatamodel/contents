@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24D5034f" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AppState" representedClassName="AppState" syncable="YES" codeGenerationType="class">
+        <attribute name="closedMonths" optional="YES" attributeType="Binary" defaultValueString="&quot;&quot;"/>
+        <attribute name="currentMonthKey" optional="YES" attributeType="String"/>
+        <attribute name="hasRestoredFromCloud" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isAutoBackupEnabled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastBackupDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" usesScalarValueType="NO"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Income" representedClassName="Income" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>

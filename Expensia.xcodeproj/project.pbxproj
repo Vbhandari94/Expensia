@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2D60A5CD2D11981E00B0950C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D60A5AD2D11981C00B0950C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D60A5B42D11981C00B0950C;
+			remoteInfo = Expensia;
+		};
+		2D60A5D72D11981E00B0950C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D60A5AD2D11981C00B0950C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D60A5B42D11981C00B0950C;
+			remoteInfo = Expensia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D60A5B52D11981C00B0950C /* Expensia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expensia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D60A5CC2D11981E00B0950C /* ExpensiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpensiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D60A5D62D11981E00B0950C /* ExpensiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpensiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D60A5DE2D11981E00B0950C /* Exceptions for "Expensia" folder in "Expensia" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2D60A5B42D11981C00B0950C /* Expensia */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D60A5B72D11981C00B0950C /* Expensia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D60A5DE2D11981E00B0950C /* Exceptions for "Expensia" folder in "Expensia" target */,
+			);
+			path = Expensia;
+			sourceTree = "<group>";
+		};
+		2D60A5CF2D11981E00B0950C /* ExpensiaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExpensiaTests;
+			sourceTree = "<group>";
+		};
+		2D60A5D92D11981E00B0950C /* ExpensiaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExpensiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D60A5B22D11981C00B0950C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5C92D11981E00B0950C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5D32D11981E00B0950C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D60A5AC2D11981C00B0950C = {
+			isa = PBXGroup;
+			children = (
+				2D60A5B72D11981C00B0950C /* Expensia */,
+				2D60A5CF2D11981E00B0950C /* ExpensiaTests */,
+				2D60A5D92D11981E00B0950C /* ExpensiaUITests */,
+				2D60A5B62D11981C00B0950C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D60A5B62D11981C00B0950C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D60A5B52D11981C00B0950C /* Expensia.app */,
+				2D60A5CC2D11981E00B0950C /* ExpensiaTests.xctest */,
+				2D60A5D62D11981E00B0950C /* ExpensiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D60A5B42D11981C00B0950C /* Expensia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D60A5DF2D11981E00B0950C /* Build configuration list for PBXNativeTarget "Expensia" */;
+			buildPhases = (
+				2D60A5B12D11981C00B0950C /* Sources */,
+				2D60A5B22D11981C00B0950C /* Frameworks */,
+				2D60A5B32D11981C00B0950C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D60A5B72D11981C00B0950C /* Expensia */,
+			);
+			name = Expensia;
+			packageProductDependencies = (
+			);
+			productName = Expensia;
+			productReference = 2D60A5B52D11981C00B0950C /* Expensia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D60A5CB2D11981E00B0950C /* ExpensiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D60A5E42D11981E00B0950C /* Build configuration list for PBXNativeTarget "ExpensiaTests" */;
+			buildPhases = (
+				2D60A5C82D11981E00B0950C /* Sources */,
+				2D60A5C92D11981E00B0950C /* Frameworks */,
+				2D60A5CA2D11981E00B0950C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D60A5CE2D11981E00B0950C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D60A5CF2D11981E00B0950C /* ExpensiaTests */,
+			);
+			name = ExpensiaTests;
+			packageProductDependencies = (
+			);
+			productName = ExpensiaTests;
+			productReference = 2D60A5CC2D11981E00B0950C /* ExpensiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D60A5D52D11981E00B0950C /* ExpensiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D60A5E72D11981E00B0950C /* Build configuration list for PBXNativeTarget "ExpensiaUITests" */;
+			buildPhases = (
+				2D60A5D22D11981E00B0950C /* Sources */,
+				2D60A5D32D11981E00B0950C /* Frameworks */,
+				2D60A5D42D11981E00B0950C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D60A5D82D11981E00B0950C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D60A5D92D11981E00B0950C /* ExpensiaUITests */,
+			);
+			name = ExpensiaUITests;
+			packageProductDependencies = (
+			);
+			productName = ExpensiaUITests;
+			productReference = 2D60A5D62D11981E00B0950C /* ExpensiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D60A5AD2D11981C00B0950C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2D60A5B42D11981C00B0950C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2D60A5CB2D11981E00B0950C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2D60A5B42D11981C00B0950C;
+					};
+					2D60A5D52D11981E00B0950C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2D60A5B42D11981C00B0950C;
+					};
+				};
+			};
+			buildConfigurationList = 2D60A5B02D11981C00B0950C /* Build configuration list for PBXProject "Expensia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D60A5AC2D11981C00B0950C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D60A5B62D11981C00B0950C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D60A5B42D11981C00B0950C /* Expensia */,
+				2D60A5CB2D11981E00B0950C /* ExpensiaTests */,
+				2D60A5D52D11981E00B0950C /* ExpensiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D60A5B32D11981C00B0950C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5CA2D11981E00B0950C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5D42D11981E00B0950C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D60A5B12D11981C00B0950C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5C82D11981E00B0950C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D60A5D22D11981E00B0950C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D60A5CE2D11981E00B0950C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D60A5B42D11981C00B0950C /* Expensia */;
+			targetProxy = 2D60A5CD2D11981E00B0950C /* PBXContainerItemProxy */;
+		};
+		2D60A5D82D11981E00B0950C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D60A5B42D11981C00B0950C /* Expensia */;
+			targetProxy = 2D60A5D72D11981E00B0950C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D60A5E02D11981E00B0950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Expensia/Expensia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Expensia/Preview Content\"";
+				DEVELOPMENT_TEAM = JKQY565H77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Expensia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Expensia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.SpendSensenew2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
+			};
+			name = Debug;
+		};
+		2D60A5E12D11981E00B0950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Expensia/Expensia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Expensia/Preview Content\"";
+				DEVELOPMENT_TEAM = JKQY565H77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Expensia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Expensia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.SpendSensenew2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 16.6;
+			};
+			name = Release;
+		};
+		2D60A5E22D11981E00B0950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D60A5E32D11981E00B0950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D60A5E52D11981E00B0950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKQY565H77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.ExpensiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expensia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Expensia";
+			};
+			name = Debug;
+		};
+		2D60A5E62D11981E00B0950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKQY565H77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.ExpensiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expensia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Expensia";
+			};
+			name = Release;
+		};
+		2D60A5E82D11981E00B0950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKQY565H77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.ExpensiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Expensia;
+			};
+			name = Debug;
+		};
+		2D60A5E92D11981E00B0950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKQY565H77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smr.ExpensiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Expensia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D60A5B02D11981C00B0950C /* Build configuration list for PBXProject "Expensia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D60A5E22D11981E00B0950C /* Debug */,
+				2D60A5E32D11981E00B0950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D60A5DF2D11981E00B0950C /* Build configuration list for PBXNativeTarget "Expensia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D60A5E02D11981E00B0950C /* Debug */,
+				2D60A5E12D11981E00B0950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D60A5E42D11981E00B0950C /* Build configuration list for PBXNativeTarget "ExpensiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D60A5E52D11981E00B0950C /* Debug */,
+				2D60A5E62D11981E00B0950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D60A5E72D11981E00B0950C /* Build configuration list for PBXNativeTarget "ExpensiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D60A5E82D11981E00B0950C /* Debug */,
+				2D60A5E92D11981E00B0950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D60A5AD2D11981C00B0950C /* Project object */;
+}
